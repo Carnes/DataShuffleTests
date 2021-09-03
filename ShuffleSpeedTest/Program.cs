@@ -37,6 +37,8 @@ namespace ShuffleSpeedTest
                 Console.WriteLine($"  -  {timer.Elapsed} elapsed\n");
                 timer.Reset();
             }
+            
+            Console.ReadKey(); // Because you can't see the final result without it :P
         }
     }
 }
